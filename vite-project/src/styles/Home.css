@@ -1,0 +1,11 @@
+#home-home {
+    background-image: url("../public/Background-2.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0rem;
+    /* margin-top: 10rem; */
+    /* transform-origin: center;
+    transform: rotate(-25deg); */
+}

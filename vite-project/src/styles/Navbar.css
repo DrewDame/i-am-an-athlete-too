@@ -1,0 +1,28 @@
+#navbar-navbar {
+    top: 0;
+    position: absolute;
+    padding: 2rem;
+    display: flex;
+    color: #FFF;
+    width: 100%;
+    font-size: 1.4rem;
+    /* min-height: 8rem; */
+    /* background-color: #71BDDF; */
+    /* opacity: 60%; */
+}
+
+#navbar-navbar img {
+    max-width: 18rem;
+    max-height: 6rem;
+}
+
+#navbar-list {
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    gap: 3rem;
+    padding-left: 2rem;
+    align-items: center;
+    /* justify-content: end; */
+    margin-left: auto;
+    padding-right: 10rem;
+}

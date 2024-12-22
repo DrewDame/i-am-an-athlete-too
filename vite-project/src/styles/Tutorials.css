@@ -1,0 +1,32 @@
+#tutorial-container {
+    justify-self: center;
+    display: grid;
+    align-self: middle;
+}
+
+.video-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.video-card:hover {
+    background-color: #e9e9e9;
+}
+
+.video-thumbnail {
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.video-info {
+    display: flex;
+    flex-direction: column;
+}
