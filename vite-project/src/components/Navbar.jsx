@@ -2,8 +2,8 @@ import '../styles/Navbar.css';
 
 function Navbar({setCurrentPage}) {
     return (
-        <nav id="navbar-navbar">
-            <img src="../public/logo.png" alt="IAAAT Logo"/>
+        <nav id="navbar">
+            <img src="../public/logo.png" alt="IAAAT Logo" onClick={() => setCurrentPage('home')}/>
             <div id="navbar-list">
                 <li onClick={() => setCurrentPage('home')}>Home</li>
                 <li onClick={() => setCurrentPage('for-athletes')}>For Athletes</li>

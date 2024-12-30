@@ -1,19 +1,27 @@
-#navbar-navbar {
+#navbar {
     top: 0;
     position: absolute;
     padding: 2rem;
     display: flex;
-    color: #FFF;
+    color: #fff;
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: bold;
     /* min-height: 8rem; */
     /* background-color: #71BDDF; */
     /* opacity: 60%; */
 }
 
-#navbar-navbar img {
-    max-width: 18rem;
-    max-height: 6rem;
+#navbar img {
+    max-width: 20rem;
+    /* max-height: 6rem; */
+    margin-left: 5rem;
+    margin-top: 2rem;    
+}
+
+#navbar img:hover {
+    cursor: pointer;
+    opacity: .9;
 }
 
 #navbar-list {
@@ -25,4 +33,9 @@
     /* justify-content: end; */
     margin-left: auto;
     padding-right: 10rem;
+}
+
+#navbar-list li:hover {
+    cursor: pointer;
+    color: #71BDDF;
 }

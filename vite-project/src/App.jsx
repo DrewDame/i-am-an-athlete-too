@@ -10,7 +10,7 @@ import ContactUs from "./components/ContactUs"
 import FAQs from "./components/FAQs"
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('faqs');
+  const [currentPage, setCurrentPage] = useState('home');
 
   function renderPage() {
     switch (currentPage) {

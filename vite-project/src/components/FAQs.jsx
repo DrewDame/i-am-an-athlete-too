@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../styles/FAQs.css";
+import {RiArrowDropDownLine} from "react-icons/ri"
 
 function FAQs() {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -18,17 +19,19 @@ function FAQs() {
     }
 
     return (
-        <div id="faqs-faqs">
+        <div id="faqs">
             {faqMap.map((faq, index) => (
-                <div key={index} className="faq-item">
-                    <div className="faq-question" onClick={() => handleToggle(index)}>
+                <div key={index} className="faq-item" onClick={() => handleToggle(index)}>
+                    <div className="faq-question">
                         {faq.question}
+                        <RiArrowDropDownLine id="faq-arrow" size={40}/>
                     </div>
                     {activeIndex === index && (
                         <div className="faq-answer">
                             {faq.answer}
                         </div>
                     )}
+                    {/* <img src="../public/down-arrow.png"></img> */}
                 </div>
         ))}
         </div>

@@ -1,9 +1,9 @@
 import '../styles/Footer.css'
 import Button from "./Button"
 
-function Footer() {
+function Footer({id}) {
     return (
-        <footer id ="footer-footer">
+        <footer id ={id}>
             <div id="footer-top-container">
                 <div id="footer-about">
                     <h2>Our Mission</h2>
